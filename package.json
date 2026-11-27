@@ -1,0 +1,7 @@
+{
+  "name": "vrushil-local-test-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Small inventory and orders module used to test CodeSherlock PR reviews."
+}
