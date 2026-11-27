@@ -13,9 +13,9 @@ function unitPriceCents(sku) {
   return price;
 }
 
-// Total for one cart line, in cents.
+// Total for one cart line, in dollars.
 function lineTotalCents(sku, quantity) {
-  return unitPriceCents(sku) * quantity;
+  return (unitPriceCents(sku) * quantity) / 100;
 }
 
 export { unitPriceCents, lineTotalCents };
